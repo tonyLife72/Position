@@ -1,0 +1,100 @@
+.wrapper {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block-element {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 400px;
+    width: 600px;
+    height: 400px;
+    background-image: url(../../image/bg.jpg);
+    position: relative;
+    z-index: 1;
+}
+
+.block-element__planet1 {
+    background-image: url(../../image/planet-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute; 
+    width: 100px;
+    height: 100px;
+    top: 15px;
+    left: 140px;
+    z-index: 2; 
+} 
+
+    .block-element__planet2 {
+    background-image: url(../../image/planet-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 66px;
+    left: 40px;
+    z-index: 3;
+}
+
+.block-element__planet3 {
+    background-image: url(../../image/planet-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top:139px;
+    left:115px;
+    z-index: 4;
+} 
+
+ .block-element__asteroid {
+    background-image: url(../../image/asteroid.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top:80px;
+    right: 60px;
+    z-index: 5;
+} 
+
+ .block-element__spacship {
+    background-image: url(../../image/spaceship.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 155px;
+    left: 144px;
+    z-index: 6;
+}
+
+.block-element__superman {
+    background-image: url(../../image/superman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 0;
+    right: 36px;
+} 
+
+ .block-element__ufo {
+    background-image: url(../../image/ufo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 75px;
+    height: 50px;
+    top: 270px;
+    left: 117px;
+    z-index: 5;
+} 
